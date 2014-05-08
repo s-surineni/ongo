@@ -46,7 +46,8 @@ class KnightKnave{
 			for(;k>=0 && op[k]!=op[i]; k--)
 			{
 			}
-			if(k!= -1)
+                        System.out.println("k "+k);
+			if(k == -1)
 				distSols--;
 			if(smallest > op[i])
 				smallest = op[i];
